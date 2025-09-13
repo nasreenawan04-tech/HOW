@@ -57,4 +57,3 @@ waitForPort = 5000
 
 [agent]
 expertMode = true
-integrations = ["javascript_sendgrid:1.0.0"]
