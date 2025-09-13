@@ -177,7 +177,7 @@ const AlcoholCalorieCalculator = () => {
         <meta property="og:title" content="Alcohol Calorie Calculator - Calculate Calories in Alcoholic Drinks | DapsiWow" />
         <meta property="og:description" content="Calculate calories in your alcoholic beverages with our free alcohol calorie calculator." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/alcohol-calorie-calculator" />
+        <link rel="canonical" href="https://dapsiwow.com/alcohol-calorie-calculator" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col" data-testid="page-alcohol-calories">

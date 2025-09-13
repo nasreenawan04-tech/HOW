@@ -202,7 +202,7 @@ const MortgageCalculator = () => {
         <meta property="og:title" content="Mortgage Calculator - Calculate Monthly Mortgage Payments | DapsiWow" />
         <meta property="og:description" content="Free mortgage calculator to calculate monthly payments, total interest, and loan costs. Include taxes, insurance, and PMI for accurate estimates." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/mortgage-calculator" />
+        <link rel="canonical" href="https://dapsiwow.com/mortgage-calculator" />
       </Helmet>
 
       <div className="min-h-screen flex flex-col" data-testid="page-mortgage-calculator">

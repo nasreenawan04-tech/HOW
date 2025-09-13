@@ -163,7 +163,7 @@ export default function LoanCalculator() {
         <meta property="og:title" content="Loan Calculator - Calculate Monthly Payments | DapsiWow" />
         <meta property="og:description" content="Free loan calculator to calculate monthly payments, total interest, and amortization schedules for personal loans, auto loans, and mortgages." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/loan-calculator" />
+        <link rel="canonical" href="https://dapsiwow.com/loan-calculator" />
       </Helmet>
       
       <Header />
