@@ -1,6 +1,6 @@
 # Overview
 
-CalcEasy (internally named "DapsiWow") is a comprehensive online tools platform offering 180+ free utilities across multiple categories including finance, PDF processing, image manipulation, text analysis, SEO optimization, and health monitoring. The application provides professional-grade calculators and converters without requiring user registration, focusing on simplicity and accessibility.
+DapsiWow is a comprehensive online tools platform offering 180+ free utilities across multiple categories including finance, PDF processing, image manipulation, text analysis, SEO optimization, and health monitoring. The application provides professional-grade calculators and converters without requiring user registration, focusing on simplicity and accessibility.
 
 # User Preferences
 
