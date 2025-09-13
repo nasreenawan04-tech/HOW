@@ -28,10 +28,20 @@ const ContactUs = () => {
     setIsSubmitting(true);
     
     try {
-      // EmailJS configuration - these will be set as environment variables
-      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_dapsiwow';
-      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_contact';
-      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'your_public_key';
+      // EmailJS configuration - get from environment variables
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      
+      // Check if EmailJS is properly configured
+      if (!serviceId || !templateId || !publicKey) {
+        toast({
+          title: "Configuration Error",
+          description: "Email service is not properly configured. Please contact us directly at saifkhan09@dapsiwow.com",
+          variant: "destructive"
+        });
+        return;
+      }
       
       // Template parameters for EmailJS
       const templateParams = {
@@ -39,7 +49,6 @@ const ContactUs = () => {
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        to_email: 'saifkhan09@dapsiwow.com',
         reply_to: formData.email
       };
 
