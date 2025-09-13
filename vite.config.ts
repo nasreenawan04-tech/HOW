@@ -21,21 +21,19 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+      "@": path.resolve(__dirname, "client", "src"),
+      "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
-  root: path.resolve(import.meta.dirname, "client"),
+  root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist"),
+    outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
   },
   server: {
     host: "0.0.0.0",
     port: 5000,
-    allowedHosts: [
-      '963a5e29-9bb5-43eb-9149-c039abed083f-00-807httqw5ti8.picard.replit.dev'
-    ],
+    allowedHosts: true,
     hmr: {
       clientPort: 443,
     },
